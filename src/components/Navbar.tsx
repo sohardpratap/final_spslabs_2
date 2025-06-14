@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Sun, Moon, Zap } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
@@ -8,12 +8,17 @@ const Navbar: React.FC = () => {
   const { isDark, toggleTheme } = useTheme();
   const location = useLocation();
 
+  // Scroll to top when route changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
+    { name: 'Our Products', href: '/products' },
     { name: 'Our Services', href: '/services' },
-    { name: 'Products', href: '/products' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Contact Us', href: '/contact' },
   ];
 
   const isActive = (path: string) => location.pathname === path;

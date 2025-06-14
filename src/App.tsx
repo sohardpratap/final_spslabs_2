@@ -17,6 +17,7 @@ import Logify from './pages/products/Logify';
 import AlgoSphere from './pages/products/AlgoSphere';
 import CrossShare from './pages/products/CrossShare';
 import ZapDine from './pages/products/ZapDine';
+import TutorBox from './pages/products/TutorBox';
 
 // Service Pages
 import AIAutomations from './pages/services/AIAutomations';
@@ -46,6 +47,7 @@ function App() {
             <Route path="/products/algo-sphere" element={<AlgoSphere />} />
             <Route path="/products/cross-share" element={<CrossShare />} />
             <Route path="/products/zap-dine" element={<ZapDine />} />
+            <Route path="/products/tutor-box" element={<TutorBox />} />
             
             {/* Service Routes */}
             <Route path="/services/ai-automations" element={<AIAutomations />} />

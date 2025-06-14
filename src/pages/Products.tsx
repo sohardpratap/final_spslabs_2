@@ -8,6 +8,7 @@ import {
   Code, 
   Share2, 
   QrCode,
+  GraduationCap,
   ArrowRight,
   Smartphone,
   Monitor
@@ -15,6 +16,16 @@ import {
 
 const Products: React.FC = () => {
   const products = [
+    {
+      id: 'zap-dine',
+      name: 'Zap Dine',
+      tagline: 'Effortless Dining with a Quick Scan—Order, Pay, and Enjoy!',
+      description: 'Smart dining platform that modernizes restaurant experience with digital menus, contactless ordering, and real-time management.',
+      icon: QrCode,
+      color: 'from-red-500 to-red-600',
+      status: 'Coming Soon',
+      features: ['QR code integration', 'Real-time order management', 'Digital menu system', 'Session management']
+    },
     {
       id: 'formguard',
       name: 'FormGuard',
@@ -24,6 +35,16 @@ const Products: React.FC = () => {
       color: 'from-blue-500 to-blue-600',
       status: 'Coming Soon',
       features: ['Real-time form correction', 'Comprehensive exercise support', 'Height-based adjustments', 'Rep counting & tracking']
+    },
+    {
+      id: 'tutor-box',
+      name: 'Tutor Box',
+      tagline: 'Professional Teaching Content Creation Made Simple',
+      description: 'Next-generation mobile app for educators to record professional-quality teaching sessions using just their smartphone or tablet.',
+      icon: GraduationCap,
+      color: 'from-green-500 to-green-600',
+      status: 'Coming Soon',
+      features: ['Split-screen interface', 'Multi-slide management', 'Auto-subtitles', 'Branding tools']
     },
     {
       id: 'partner-hub',
@@ -74,16 +95,6 @@ const Products: React.FC = () => {
       color: 'from-indigo-500 to-indigo-600',
       status: 'Coming Soon',
       features: ['Local Wi-Fi transfer', 'QR code connection', 'Cross-device compatibility', 'Encrypted transfers']
-    },
-    {
-      id: 'zap-dine',
-      name: 'Zap Dine',
-      tagline: 'Effortless Dining with a Quick Scan—Order, Pay, and Enjoy!',
-      description: 'Smart dining platform that modernizes restaurant experience with digital menus, contactless ordering, and real-time management.',
-      icon: QrCode,
-      color: 'from-red-500 to-red-600',
-      status: 'Coming Soon',
-      features: ['QR code integration', 'Real-time order management', 'Digital menu system', 'Session management']
     }
   ];
 
@@ -92,22 +103,23 @@ const Products: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
             Our <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">Products</span>
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto animate-slide-up">
             Explore our innovative product portfolio designed to solve real-world challenges with cutting-edge technology and exceptional user experience.
           </p>
         </div>
 
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {products.map((product) => {
+          {products.map((product, index) => {
             const IconComponent = product.icon;
             return (
               <div
                 key={product.id}
-                className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 dark:border-gray-700"
+                className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 dark:border-gray-700 animate-scale-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="p-8">
                   {/* Icon and Status */}
@@ -159,7 +171,7 @@ const Products: React.FC = () => {
         </div>
 
         {/* Bottom CTA Section */}
-        <div className="text-center bg-gradient-to-r from-blue-50 to-teal-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-12">
+        <div className="text-center bg-gradient-to-r from-blue-50 to-teal-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-12 animate-fade-in">
           <div className="flex justify-center mb-6">
             <div className="flex space-x-4">
               <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-xl">

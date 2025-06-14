@@ -16,28 +16,20 @@ import {
 const Services: React.FC = () => {
   const services = [
     {
-      id: 'ai-automations',
-      name: 'AI Automations',
-      description: 'Harness the power of AI to automate repetitive tasks and enhance your business operations',
-      icon: Bot,
-      color: 'from-blue-500 to-blue-600',
-      features: ['Process Automation', 'Intelligent Workflows', 'Data Analysis', 'Performance Optimization']
-    },
-    {
-      id: 'custom-ai-agents',
-      name: 'Custom AI Agents',
-      description: 'Intelligent AI agents tailored to your specific business needs and workflows',
-      icon: Sparkles,
-      color: 'from-purple-500 to-purple-600',
-      features: ['Personalized Solutions', 'Smart Decision Making', 'Natural Language Processing', '24/7 Availability']
-    },
-    {
       id: 'business-digitalization',
       name: 'Business Digitalization',
       description: 'Transform your traditional business operations into streamlined digital workflows',
       icon: Building2,
       color: 'from-teal-500 to-teal-600',
       features: ['Digital Transformation', 'Cloud Migration', 'Process Optimization', 'System Integration']
+    },
+    {
+      id: 'ai-automations',
+      name: 'AI Automations',
+      description: 'Harness the power of AI to automate repetitive tasks and enhance your business operations',
+      icon: Bot,
+      color: 'from-blue-500 to-blue-600',
+      features: ['Process Automation', 'Intelligent Workflows', 'Data Analysis', 'Performance Optimization']
     },
     {
       id: 'software-solutions',
@@ -49,11 +41,19 @@ const Services: React.FC = () => {
     },
     {
       id: 'websites-development',
-      name: 'Websites Development',
+      name: 'Website Development',
       description: 'Professional, responsive websites that represent your brand and drive results',
       icon: Globe,
       color: 'from-orange-500 to-orange-600',
       features: ['Responsive Design', 'SEO Optimization', 'Performance Focused', 'Modern Technologies']
+    },
+    {
+      id: 'custom-ai-agents',
+      name: 'Custom AI Agents',
+      description: 'Intelligent AI agents tailored to your specific business needs and workflows',
+      icon: Sparkles,
+      color: 'from-purple-500 to-purple-600',
+      features: ['Personalized Solutions', 'Smart Decision Making', 'Natural Language Processing', '24/7 Availability']
     },
     {
       id: 'college-project-development',
@@ -70,22 +70,23 @@ const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
             Our <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">Services</span>
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto animate-slide-up">
             Expert solutions tailored to your business needs
           </p>
         </div>
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {services.map((service) => {
+          {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
               <div
                 key={service.id}
-                className="group bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 dark:border-gray-800"
+                className="group bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 dark:border-gray-800 animate-scale-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="p-8">
                   {/* Icon */}
@@ -131,7 +132,7 @@ const Services: React.FC = () => {
         </div>
 
         {/* Why Choose Us Section */}
-        <div className="bg-gradient-to-r from-blue-50 to-teal-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-12 mb-16">
+        <div className="bg-gradient-to-r from-blue-50 to-teal-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-12 mb-16 animate-fade-in">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-8">
             Why Choose SPSLabs.in?
           </h2>
@@ -173,7 +174,7 @@ const Services: React.FC = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-blue-600 to-teal-600 rounded-2xl p-12 text-white">
+        <div className="text-center bg-gradient-to-r from-blue-600 to-teal-600 rounded-2xl p-12 text-white animate-fade-in">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-xl mb-8 opacity-90">
             Let's discuss how our services can help transform your business and achieve your goals.
