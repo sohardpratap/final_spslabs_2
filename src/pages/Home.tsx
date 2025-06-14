@@ -54,26 +54,35 @@ const Home: React.FC = () => {
       <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight animate-fade-in">
-              Transforming Ideas into{' '}
-              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent animate-pulse-slow">
+            <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+              <span className="inline-block animate-fade-in">
+                <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent animate-pulse-slow font-extrabold tracking-tight">
+                  SPS Labs
+                </span>
+              </span>
+              <br />
+              <span className="animate-slide-up inline-block" style={{ animationDelay: '0.3s' }}>
+                Transforming Ideas into{' '}
+              </span>
+              <br />
+              <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-red-500 bg-clip-text text-transparent animate-scale-in inline-block" style={{ animationDelay: '0.6s' }}>
                 Digital Reality
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4 font-medium animate-slide-up">
+            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4 font-medium animate-slide-up" style={{ animationDelay: '0.9s' }}>
               Innovative Solutions for Modern Businesses
             </p>
-            <p className="text-lg text-gray-500 dark:text-gray-400 mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+            <p className="text-lg text-gray-500 dark:text-gray-400 mb-8 animate-slide-up" style={{ animationDelay: '1.2s' }}>
               Building the Future of Technology Today
             </p>
           </div>
           
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed animate-slide-up" style={{ animationDelay: '0.4s' }}>
+          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed animate-slide-up" style={{ animationDelay: '1.5s' }}>
             We create innovative software solutions that help businesses thrive in the digital age. 
             From custom applications to AI-powered tools, we're your partner in digital transformation.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center animate-slide-up" style={{ animationDelay: '0.6s' }}>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center animate-slide-up" style={{ animationDelay: '1.8s' }}>
             <Link
               to="/products"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
