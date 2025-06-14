@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="group-hover:scale-110 transition-transform duration-300">
               <img
-                src={isDark ? "/SPS_LABS_LOGO_Dark.webp" : "/SPSLABS_LOGO_Light.png"}
+                src={isDark ? "/SPS_LABS_LOGO_Dark.png" : "/SPSLABS_LOGO_Light.png"}
                 alt="SPSLabs"
                 className="h-10 w-auto"
               />
