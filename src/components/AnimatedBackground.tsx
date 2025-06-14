@@ -67,14 +67,14 @@ const AnimatedBackground: React.FC = () => {
         if (particle.y > canvas.height / 2) particle.y = -canvas.height / 2;
         if (particle.y < -canvas.height / 2) particle.y = canvas.height / 2;
         if (particle.z > 1000) particle.z = -1000;
-        if (particle.z < -1000) particle.z = 1000;
+        if (particle.z <= -1000) particle.z = 1000;
 
         // Draw particle
         ctx.save();
         ctx.globalAlpha = particle.opacity * scale;
         ctx.fillStyle = particle.color;
         ctx.beginPath();
-        ctx.arc(x2d, y2d, particle.size * scale, 0, Math.PI * 2);
+        ctx.arc(x2d, y2d, Math.max(0, particle.size * scale), 0, Math.PI * 2);
         ctx.fill();
         ctx.restore();
 
