@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Sun, Moon, Zap } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 const Navbar: React.FC = () => {
@@ -29,12 +29,13 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="p-2 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg group-hover:scale-110 transition-transform duration-300">
-              <Zap className="h-6 w-6 text-white" />
+            <div className="group-hover:scale-110 transition-transform duration-300">
+              <img
+                src={isDark ? "/SPS_LABS_LOGO_Dark.webp" : "/SPSLABS_LOGO_Light.png"}
+                alt="SPSLabs"
+                className="h-10 w-auto"
+              />
             </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
-              SPSLabs
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
