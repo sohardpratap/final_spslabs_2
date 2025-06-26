@@ -21,7 +21,7 @@ const About: React.FC = () => {
     {
       name: 'Sohard Pratap Singh',
       role: 'CEO & Founder',
-      image: 'https://media.licdn.com/dms/image/v2/D5603AQFgJepnWPTx1w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721517491379?e=1750896000&v=beta&t=VUAgVcg2dtbP5HGBEsE_E3_KSbp85B_YWGckoAV7HCk',
+      image: 'https://media.licdn.com/dms/image/v2/D5603AQFgJepnWPTx1w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721517491379?e=1756339200&v=beta&t=0HFYYnq4ZmTCXeJKJZA1zbUlTz60MdKyQJLZTBGloqo',
       portfolio: 'https://sohardpratapsingh.netlify.app/',
       description: 'Visionary leader driving innovation in software development and AI solutions.'
     },
