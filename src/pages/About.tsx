@@ -28,7 +28,7 @@ const About: React.FC = () => {
     {
       name: 'Om Saxena',
       role: 'Developer',
-      image: 'https://media.licdn.com/dms/image/v2/D4E03AQEKj0U42FABhg/profile-displayphoto-shrink_400_400/B4EZUUwzJhGwAg-/0/1739810094553?e=1750896000&v=beta&t=AHejBT1mlbLAMmCf0sVmRRkxUu1r2EouCWArzPTABoE',
+      image: 'https://media.licdn.com/dms/image/v2/D4E03AQEKj0U42FABhg/profile-displayphoto-shrink_800_800/B4EZUUwzJhGwAc-/0/1739810094571?e=1756339200&v=beta&t=2cGEubXDOFx6HsHaCuU7LzU4m-thucNeFIJidUxCcR0',
       linkedin: 'https://www.linkedin.com/in/om-saxena-5b8571321',
       description: 'Skilled developer passionate about creating robust and scalable software solutions.'
     },
