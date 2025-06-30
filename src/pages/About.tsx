@@ -21,24 +21,31 @@ const About: React.FC = () => {
     {
       name: 'Sohard Pratap Singh',
       role: 'CEO & Founder',
-      image: 'https://media.licdn.com/dms/image/v2/D5603AQFgJepnWPTx1w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721517491379?e=1750896000&v=beta&t=VUAgVcg2dtbP5HGBEsE_E3_KSbp85B_YWGckoAV7HCk',
+      image: 'https://media.licdn.com/dms/image/v2/D5603AQFgJepnWPTx1w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721517491352?e=1756944000&v=beta&t=2Kn8pjuV12zSMptq-Aa7E4rOEY8AT-2rUUS5bJ1MeQ0',
       portfolio: 'https://sohardpratapsingh.netlify.app/',
       description: 'Visionary leader driving innovation in software development and AI solutions.'
     },
     {
       name: 'Om Saxena',
-      role: 'Developer',
-      image: 'https://media.licdn.com/dms/image/v2/D4E03AQEKj0U42FABhg/profile-displayphoto-shrink_400_400/B4EZUUwzJhGwAg-/0/1739810094553?e=1750896000&v=beta&t=AHejBT1mlbLAMmCf0sVmRRkxUu1r2EouCWArzPTABoE',
+      role: 'Junior Developer and HR',
+      image: 'https://media.licdn.com/dms/image/v2/D4E03AQEKj0U42FABhg/profile-displayphoto-shrink_400_400/B4EZUUwzJhGwAg-/0/1739810094553?e=1756944000&v=beta&t=8H1cQ5W6OxDEfP6xLZo4tiipOgY4naHkESsags2l9_Y',
       linkedin: 'https://www.linkedin.com/in/om-saxena-5b8571321',
       description: 'Skilled developer passionate about creating robust and scalable software solutions.'
     },
     {
       name: 'Nakshatra Yadav',
-      role: 'Editor & Graphic Designer',
+      role: 'Junior Developer and Editor',
       image: 'https://media.licdn.com/dms/image/v2/D4E03AQG15Rc0l-yQRA/profile-displayphoto-shrink_400_400/B4EZVF1j2FHMAg-/0/1740633428054?e=1752105600&v=beta&t=9TkvTyqesGT_EUpKZ6bZIVeiPgCnkR21OgNHaAxTkXk',
       linkedin: 'https://www.linkedin.com/in/nakshatra-yadav-9377a534b/',
       description: 'Creative designer crafting compelling visual experiences and brand identities.'
-    }
+    },
+    {
+      name: 'Vansh Bhatnagar',
+      role: ' Junior Developer and Sales Manager',
+      image: 'https://media.licdn.com/dms/image/v2/D4E03AQE9ER5S31ubPQ/profile-displayphoto-shrink_400_400/B4EZbm_ZWFGUAg-/0/1747632101261?e=1756944000&v=beta&t=4DXx-btdkSX-OqM3Pi3KW2Hzhyof8dYNPPJFToYOqIw',
+      linkedin: 'https://www.linkedin.com/in/vansh-bhatnagar-b3365a366/',
+      description: 'Designs scalable systems, manages cloud infrastructure, ensures security and reliability.'
+    },
   ];
 
   const values = [
