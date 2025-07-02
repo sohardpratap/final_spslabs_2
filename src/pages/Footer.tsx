@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <div className="p-2 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg">
                 <Zap className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold">SPSLabs.in</span>
+              <span className="text-xl font-bold">SPS Labs</span>
             </div>
             <p className="text-gray-400 text-sm">
               Innovative software solutions for modern businesses. We help transform ideas into powerful digital products.
