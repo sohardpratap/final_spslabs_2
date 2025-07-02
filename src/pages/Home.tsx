@@ -224,11 +224,11 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-up">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-                About SPSLabs.in
+                About SPS Labs
               </h2>
               <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                 <p>
-                  At SPSLabs.in, we believe in the power of technology to transform businesses and enhance lives. 
+                  At SPS Labs, we believe in the power of technology to transform businesses and enhance lives. 
                   Our team of experts combines creativity with technical expertise to build innovative solutions 
                   that address real-world challenges.
                 </p>
