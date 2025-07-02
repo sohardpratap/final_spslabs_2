@@ -106,7 +106,7 @@ const About: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              About <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">SPSLabs.in</span>
+              About <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">SPS Labs</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
               Transforming Ideas into Digital Reality
