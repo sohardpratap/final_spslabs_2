@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Instagram, MessageCircle, Github, Zap } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, MessageCircle, Github } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -11,7 +11,11 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="p-2 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg">
-                <Zap className="h-6 w-6 text-white" />
+                <img
+                  src="/SPS_LABS_LOGO_Dark.png"
+                  alt="SPSLabs"
+                  className="h-6 w-6"
+                />
               </div>
               <span className="text-xl font-bold">SPSLabs.in</span>
             </div>
