@@ -1,11 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Instagram, MessageCircle, Github } from 'lucide-react';
-import { useTheme } from '../contexts/ThemeContext';
 
 const Footer: React.FC = () => {
-  const { isDark } = useTheme();
-
   return (
     <footer className="relative z-10 bg-gray-900 dark:bg-black text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -13,13 +10,6 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="p-2 bg-white rounded-lg">
-                <img
-                  src="/Picsart_25-07-03_23-44-30-274.png"
-                  alt="SPS Labs"
-                  className="h-8 w-auto"
-                />
-              </div>
               <span className="text-xl font-bold">SPS Labs</span>
             </div>
             <p className="text-gray-400 text-sm">
