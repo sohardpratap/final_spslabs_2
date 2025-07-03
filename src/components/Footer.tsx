@@ -13,14 +13,14 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="p-2 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg">
+              <div className="p-2 bg-white rounded-lg">
                 <img
                   src="/Picsart_25-07-03_23-44-30-274.png"
-                  alt="SPSLabs"
-                  className="h-6 w-6"
+                  alt="SPS Labs"
+                  className="h-8 w-auto"
                 />
               </div>
-              <span className="text-xl font-bold">SPSLabs.in</span>
+              <span className="text-xl font-bold">SPS Labs</span>
             </div>
             <p className="text-gray-400 text-sm">
               Innovative software solutions for modern businesses. We help transform ideas into powerful digital products.
@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-800 dark:border-gray-900 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 SPSLabs.in. All rights reserved.</p>
+          <p>&copy; 2025 SPS Labs. All rights reserved.</p>
         </div>
       </div>
     </footer>
