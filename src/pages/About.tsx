@@ -105,13 +105,13 @@ const About: React.FC = () => {
       <section className="py-20 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
               About <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">SPS Labs</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
+            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
               Transforming Ideas into Digital Reality
             </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed animate-slide-up" style={{ animationDelay: '0.4s' }}>
               SPSLabs.in is a leading software development company dedicated to providing innovative solutions 
               for modern businesses. Our mission is to empower organizations with cutting-edge technology 
               and exceptional service, helping them thrive in the digital age.
@@ -121,7 +121,7 @@ const About: React.FC = () => {
           {/* Stats Section */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
             {stats.map((stat, index) => (
-              <div key={index} className="text-center bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/20 dark:border-gray-700/20">
+              <div key={index} className="text-center bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/20 dark:border-gray-700/20 animate-scale-in" style={{ animationDelay: `${0.6 + index * 0.1}s` }}>
                 <div className="text-3xl md:text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                   {stat.number}
                 </div>
@@ -138,19 +138,19 @@ const About: React.FC = () => {
       <section className="py-20 bg-white/40 dark:bg-gray-900/40 backdrop-blur-sm relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="animate-slide-up">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8">
                 Our Mission & Vision
               </h2>
               <div className="space-y-8">
-                <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30">
+                <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 animate-scale-in" style={{ animationDelay: '0.2s' }}>
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">Our Mission</h3>
                   <p className="text-gray-600 dark:text-gray-300">
                     To empower businesses through innovative technology solutions that drive growth, 
                     efficiency, and digital transformation while maintaining the highest standards of quality and service.
                   </p>
                 </div>
-                <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30">
+                <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 animate-scale-in" style={{ animationDelay: '0.4s' }}>
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">Our Vision</h3>
                   <p className="text-gray-600 dark:text-gray-300">
                     To be the leading force in digital innovation, creating solutions that shape the future 
@@ -165,7 +165,8 @@ const About: React.FC = () => {
                 return (
                   <div
                     key={index}
-                    className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 text-center hover:shadow-xl transition-all duration-300 hover:bg-white/90 dark:hover:bg-gray-900/90"
+                    className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 text-center hover:shadow-xl transition-all duration-300 hover:bg-white/90 dark:hover:bg-gray-900/90 animate-scale-in"
+                    style={{ animationDelay: `${0.6 + index * 0.1}s` }}
                   >
                     <div className="flex justify-center mb-4">
                       <div className="p-3 bg-gradient-to-r from-blue-500 to-teal-500 rounded-xl">
@@ -190,10 +191,10 @@ const About: React.FC = () => {
       <section className="py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
               Meet Our Team
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto animate-slide-up" style={{ animationDelay: '0.2s' }}>
               Our talented team of professionals brings together diverse skills and expertise 
               to deliver exceptional results for our clients.
             </p>
@@ -203,7 +204,8 @@ const About: React.FC = () => {
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/30 dark:border-gray-700/30 overflow-hidden"
+                className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/30 dark:border-gray-700/30 overflow-hidden animate-scale-in"
+                style={{ animationDelay: `${0.4 + index * 0.1}s` }}
               >
                 <div className="aspect-square overflow-hidden">
                   <img
@@ -257,17 +259,17 @@ const About: React.FC = () => {
       <section className="py-20 bg-gradient-to-r from-blue-600/90 to-teal-600/90 backdrop-blur-sm relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 animate-fade-in">
               Get In Touch
             </h2>
-            <p className="text-xl text-white/90">
+            <p className="text-xl text-white/90 animate-slide-up" style={{ animationDelay: '0.2s' }}>
               Ready to start your next project? We'd love to hear from you.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Contact Info */}
-            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 text-white border border-white/30">
+            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 text-white border border-white/30 animate-scale-in" style={{ animationDelay: '0.4s' }}>
               <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -286,7 +288,7 @@ const About: React.FC = () => {
             </div>
 
             {/* Social Media */}
-            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 text-white border border-white/30">
+            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 text-white border border-white/30 animate-scale-in" style={{ animationDelay: '0.6s' }}>
               <h3 className="text-xl font-semibold mb-6">Follow Us</h3>
               <div className="space-y-4">
                 {socialLinks.map((social, index) => {
@@ -308,7 +310,7 @@ const About: React.FC = () => {
             </div>
 
             {/* CTA */}
-            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 text-white border border-white/30">
+            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 text-white border border-white/30 animate-scale-in" style={{ animationDelay: '0.8s' }}>
               <h3 className="text-xl font-semibold mb-4">Ready to Start?</h3>
               <p className="text-white/90 mb-6">
                 Let's discuss your project and bring your ideas to life.
@@ -337,16 +339,16 @@ const About: React.FC = () => {
       <section className="py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
-              Why Choose SPSLabs.in?
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
+              Why Choose SPS Labs?
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto animate-slide-up" style={{ animationDelay: '0.2s' }}>
               We combine technical expertise with creative innovation to deliver solutions that exceed expectations.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 hover:bg-white/90 dark:hover:bg-gray-900/90 transition-all duration-300">
+            <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 hover:bg-white/90 dark:hover:bg-gray-900/90 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.4s' }}>
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-xl flex items-center justify-center mb-4">
                 <Target className="h-6 w-6 text-white" />
               </div>
@@ -358,7 +360,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 hover:bg-white/90 dark:hover:bg-gray-900/90 transition-all duration-300">
+            <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 hover:bg-white/90 dark:hover:bg-gray-900/90 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.6s' }}>
               <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4">
                 <Lightbulb className="h-6 w-6 text-white" />
               </div>
@@ -370,7 +372,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 hover:bg-white/90 dark:hover:bg-gray-900/90 transition-all duration-300">
+            <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/30 dark:border-gray-700/30 hover:bg-white/90 dark:hover:bg-gray-900/90 transition-all duration-300 animate-scale-in" style={{ animationDelay: '0.8s' }}>
               <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl flex items-center justify-center mb-4">
                 <Award className="h-6 w-6 text-white" />
               </div>
