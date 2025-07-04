@@ -41,10 +41,17 @@ const About: React.FC = () => {
     },
     {
       name: 'Vansh Bhatnagar',
-      role: ' Junior Developer and Sales Manager',
+      role: 'unior Developer and Sales Manager',
       image: 'https://media.licdn.com/dms/image/v2/D4E03AQE9ER5S31ubPQ/profile-displayphoto-shrink_400_400/B4EZbm_ZWFGUAg-/0/1747632101261?e=1756944000&v=beta&t=4DXx-btdkSX-OqM3Pi3KW2Hzhyof8dYNPPJFToYOqIw',
       linkedin: 'https://www.linkedin.com/in/vansh-bhatnagar-b3365a366/',
       description: 'Designs scalable systems, manages cloud infrastructure, ensures security and reliability.'
+    },
+    {
+      name: 'Shruti Agarwal,
+      role: 'Software & DevOps Engineer',
+      image: 'https://media.licdn.com/dms/image/v2/D5603AQG2T047a82zdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718260484535?e=1756944000&v=beta&t=pR65pO8VoKNd1U7XS9A7eljXjsBQQ2O_W6_HYOEzMd4',
+      portfolio: 'https://shrutiagarwal09.netlify.app/',
+      description: 'Builds software and automates systems for smooth and scalable deployment.'
     },
   ];
 
