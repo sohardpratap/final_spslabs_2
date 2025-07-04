@@ -47,7 +47,7 @@ const About: React.FC = () => {
       description: 'Designs scalable systems, manages cloud infrastructure, ensures security and reliability.'
     },
     {
-      name: 'Shruti Agarwal,
+      name: 'Shruti Agarwal',
       role: 'Software & DevOps Engineer',
       image: 'https://media.licdn.com/dms/image/v2/D5603AQG2T047a82zdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718260484535?e=1756944000&v=beta&t=pR65pO8VoKNd1U7XS9A7eljXjsBQQ2O_W6_HYOEzMd4',
       portfolio: 'https://shrutiagarwal09.netlify.app/',
