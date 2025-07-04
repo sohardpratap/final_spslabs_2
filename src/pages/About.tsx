@@ -41,7 +41,7 @@ const About: React.FC = () => {
     },
     {
       name: 'Vansh Bhatnagar',
-      role: 'unior Developer and Sales Manager',
+      role: 'junior Developer and Sales Manager',
       image: 'https://media.licdn.com/dms/image/v2/D4E03AQE9ER5S31ubPQ/profile-displayphoto-shrink_400_400/B4EZbm_ZWFGUAg-/0/1747632101261?e=1756944000&v=beta&t=4DXx-btdkSX-OqM3Pi3KW2Hzhyof8dYNPPJFToYOqIw',
       linkedin: 'https://www.linkedin.com/in/vansh-bhatnagar-b3365a366/',
       description: 'Designs scalable systems, manages cloud infrastructure, ensures security and reliability.'
