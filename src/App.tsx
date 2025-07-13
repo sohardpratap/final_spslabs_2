@@ -18,6 +18,7 @@ import AlgoSphere from './pages/products/AlgoSphere';
 import CrossShare from './pages/products/CrossShare';
 import ZapDine from './pages/products/ZapDine';
 import TutorBox from './pages/products/TutorBox';
+import AgroBuddy from './pages/products/AgroBuddy';
 
 // Service Pages
 import AIAutomations from './pages/services/AIAutomations';
@@ -48,6 +49,7 @@ function App() {
             <Route path="/products/cross-share" element={<CrossShare />} />
             <Route path="/products/zap-dine" element={<ZapDine />} />
             <Route path="/products/tutor-box" element={<TutorBox />} />
+            <Route path="/products/agro-buddy" element={<AgroBuddy />} />
             
             {/* Service Routes */}
             <Route path="/services/ai-automations" element={<AIAutomations />} />

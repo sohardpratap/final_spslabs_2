@@ -11,7 +11,8 @@ import {
   GraduationCap,
   ArrowRight,
   Smartphone,
-  Monitor
+  Monitor,
+  Leaf
 } from 'lucide-react';
 
 const Products: React.FC = () => {
@@ -95,6 +96,16 @@ const Products: React.FC = () => {
       color: 'from-indigo-500 to-indigo-600',
       status: 'Coming Soon',
       features: ['Local Wi-Fi transfer', 'QR code connection', 'Cross-device compatibility', 'Encrypted transfers']
+    }
+    {
+      id: 'agro-buddy',
+      name: 'AgroBuddy',
+      tagline: 'AI-Driven Plant Diagnostics & Crop Planner',
+      description: 'Conversational assistant that combines real-time imaging and chatbot intelligence to help farmers diagnose plant health issues and plan crop cultivation.',
+      icon: Leaf,
+      color: 'from-emerald-500 to-emerald-600',
+      status: 'Coming Soon',
+      features: ['Real-time plant disease detection', 'Crop planning & ROI analysis', 'Voice-enabled multilingual chatbot', 'Treatment recommendations']
     }
   ];
 
