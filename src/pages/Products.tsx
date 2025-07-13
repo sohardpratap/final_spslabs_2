@@ -96,7 +96,7 @@ const Products: React.FC = () => {
       color: 'from-indigo-500 to-indigo-600',
       status: 'Coming Soon',
       features: ['Local Wi-Fi transfer', 'QR code connection', 'Cross-device compatibility', 'Encrypted transfers']
-    }
+    },
     {
       id: 'agro-buddy',
       name: 'AgroBuddy',
