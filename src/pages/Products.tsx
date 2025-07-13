@@ -48,6 +48,16 @@ const Products: React.FC = () => {
       features: ['Split-screen interface', 'Multi-slide management', 'Auto-subtitles', 'Branding tools']
     },
     {
+      id: 'agro-bro',
+      name: 'Agro Bro',
+      tagline: 'AI-Driven Plant Diagnostics & Crop Planner',
+      description: 'Conversational assistant that combines real-time imaging and chatbot intelligence to help farmers diagnose plant health issues and plan crop cultivation.',
+      icon: Leaf,
+      color: 'from-emerald-500 to-emerald-600',
+      status: 'Coming Soon',
+      features: ['Real-time plant disease detection', 'Crop planning & ROI analysis', 'Voice-enabled multilingual chatbot', 'Treatment recommendations']
+    },
+    {
       id: 'partner-hub',
       name: 'Partner Hub',
       tagline: 'AI Unified Notification Hub for Delivery Partners',
@@ -96,16 +106,6 @@ const Products: React.FC = () => {
       color: 'from-indigo-500 to-indigo-600',
       status: 'Coming Soon',
       features: ['Local Wi-Fi transfer', 'QR code connection', 'Cross-device compatibility', 'Encrypted transfers']
-    },
-    {
-      id: 'agro-buddy',
-      name: 'AgroBuddy',
-      tagline: 'AI-Driven Plant Diagnostics & Crop Planner',
-      description: 'Conversational assistant that combines real-time imaging and chatbot intelligence to help farmers diagnose plant health issues and plan crop cultivation.',
-      icon: Leaf,
-      color: 'from-emerald-500 to-emerald-600',
-      status: 'Coming Soon',
-      features: ['Real-time plant disease detection', 'Crop planning & ROI analysis', 'Voice-enabled multilingual chatbot', 'Treatment recommendations']
     }
   ];
 
