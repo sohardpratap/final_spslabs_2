@@ -35,7 +35,7 @@ const About: React.FC = () => {
     {
       name: 'Nakshatra Yadav',
       role: 'Junior Developer and Editor',
-      image: 'https://media.licdn.com/dms/image/v2/D4E03AQG15Rc0l-yQRA/profile-displayphoto-shrink_400_400/B4EZVF1j2FHMAg-/0/1740633428054?e=1752105600&v=beta&t=9TkvTyqesGT_EUpKZ6bZIVeiPgCnkR21OgNHaAxTkXk',
+      image: 'https://media.licdn.com/dms/image/v2/D4E03AQG15Rc0l-yQRA/profile-displayphoto-shrink_800_800/B4EZVF1j2FHMAc-/0/1740633428054?e=1758153600&v=beta&t=lfHn1IagiGhFZVu_gH2rcz9ONw-UNCENRJLpURRk5bA',
       linkedin: 'https://www.linkedin.com/in/nakshatra-yadav-9377a534b/',
       description: 'Creative designer crafting compelling visual experiences and brand identities.'
     },
